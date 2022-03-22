@@ -30,7 +30,7 @@ jobs:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
     steps:
-    # Checkout the repo Takis
+    # Checkout the repo Takis22
     - uses: actions/checkout@master
 
     - name: Build and push an image to container registry
